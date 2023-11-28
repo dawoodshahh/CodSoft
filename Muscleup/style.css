@@ -1,0 +1,704 @@
+/*logo sizing */
+
+
+.logo {
+    width: 104px;
+    height: 77px;
+    margin-top: 15px;
+
+}
+
+/* header*/
+#header {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.6);
+
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+
+
+
+}
+
+/*navbar*/
+#navbar {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#navbar li {
+    list-style: none;
+    padding: 15px 65px;
+    margin-top: 25px;
+    position: relative;
+    z-index: 999;
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-family: emoji;
+    font-size: 25px;
+    color: #000000;
+    font-weight: bolder;
+    transition: 0.1s ease;
+}
+
+
+#navbar li a:hover,
+#navbar li a:active {
+    color: rgb(38, 30, 5);
+}
+
+#navbar li a:active::after,
+#navbar li a:hover::after {
+    content: "";
+    position: absolute;
+
+    width: 22%;
+    height: 3px;
+    background-color: rgb(100, 82, 40);
+    bottom: 16px;
+    left: 65px;
+
+}
+
+.carousel-inner {
+
+    transition: ease-in-out;
+    transition-duration: 1s;
+    height: 900px;
+}
+
+.carousel-caption {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 30rem;
+}
+
+
+/* .container h1 */
+
+.icon>i {
+    padding-left: 186px;
+    line-height: 3;
+    font-size: 90px;
+    transition: 200ms;
+}
+.icon:hover >i{
+    scale:120%
+
+}
+
+.follow {
+    margin-bottom: -42px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 100px;
+    color: #000000 !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+/*poster*/
+
+.p-img>img {
+    width: 302%;
+    height: 100%;
+    padding: 50px;
+    margin-left: 71px;
+}
+
+.poster {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    height: 810px;
+
+}
+
+.sidetext {
+    line-height: 27px;
+    color: #ffffff;
+    margin-left: 620px;
+
+    margin-top: 83px;
+}
+
+.sidetext h3 {
+
+    margin-top: 120px;
+
+    font-weight: 200;
+
+    font-size: 29px;
+    font-family: 'ui-sans-seri';
+}
+
+.sidetext h1 {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding-right: 10px;
+    font-size: 65px;
+
+}
+
+p {
+    padding-right: 80px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*maps*/
+.maps img {
+
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.maps .anabolic {
+    position: relative;
+}
+
+.map-text {
+    color: #ffffff;
+    top: 20%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.map-text h1 {
+    color: red;
+    font-size: 211px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.map-text h3 {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: 26px;
+    transition:scale 400ms;
+}
+
+.map-text p {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.map-text p span {
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+
+.maps .perform {
+    position: relative;
+}
+
+.map-text1 {
+    color: #ffffff;
+    top: 20%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.map-text1 h1 {
+    color: red;
+    font-size: 211px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.map-text1 h3 {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    transition:scale 400ms;
+}
+
+.map-text1 p {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.map-text1 p span {
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.maps .aesthtic {
+    position: relative;
+}
+
+.map-text2 {
+    color: #ffffff;
+    top: 20%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.map-text2 h1 {
+    color: red;
+    font-size: 211px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.map-text2 h3 {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: 26px;
+    transition:scale 400ms;
+}
+.map-text:hover h3{
+    scale: 115%;
+} 
+.map-text1:hover h3{
+    scale: 115%;
+} 
+.map-text2:hover h3{
+    scale: 115%;
+} 
+
+.map-text2 p {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.map-text2 p span {
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+/*ourteam*/
+.team {
+
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-left: 70px;
+}
+
+.team  .t-img img {
+    padding: 25px;
+    margin-top: 180px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 400ms;
+}
+ .t-img:hover img {  
+scale: 120%;
+}
+
+.ourteam {
+    position: relative;
+    margin-top: 120px;
+    text-align: center;
+}
+.t-text{
+    margin-left: 20px;
+}
+.line:active::after,
+.ourteam:after {
+    content: "";
+    position: absolute;
+
+    width: 22%;
+    height: 3px;
+    background-color: rgb(9, 9, 9);
+   top:120px;
+    left: 740px;
+}
+.banner-form {
+    position: relative;
+}
+
+.banner-form > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1902px;
+    height: 786px;
+}
+
+.items {
+    position: absolute;
+    top:300px;
+    left: 680px;
+}
+#Name {
+    width: 320px;
+    height: 48px;
+    padding: 12px;
+   border-color: aliceblue;
+    border:none;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  
+}
+#Email{
+    width: 320px;
+    height: 48px;
+    padding: 12px;
+    border-color: aliceblue;
+  border: none;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  
+}
+.text-1{
+    position: relative;
+    right: 224px;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    border: none;
+    outline: none;
+  
+ 
+}
+div.submit input[type="button"] {
+    margin-top: 8px ;
+    margin-left: 222px;
+    width: 200px;
+    height: 50px;
+    padding: 7px;
+    border-radius: 7px;
+     background-color: yellow;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+/*b-footer*/
+
+
+.b-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 786px;
+    background-color: #222023;
+}
+.b-footer .col{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 60px 30px 50px 60px;
+   
+}
+.b-footer h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: yellow;
+   
+}
+.b-footer p{
+    font-size: 15px;
+  margin: 10px 0 8px 0;
+  margin-bottom: 21px;
+  color: #fff;
+}
+.b-footer a{
+    font-size: 17px;
+color: #ffffff;
+ text-decoration: none;
+ margin-bottom: 28px;
+}
+.b-footer a:hover {
+   
+color: #a6cc34;
+
+}
+.b-footer img{
+
+    border-radius: 16px;
+    width:210px ;
+    
+}
+
+
+/*footer*/
+footer {
+    background-color: rgb(0 0 0);
+    color: rgb(114, 105, 105);
+    padding: 7px;
+}
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-content h3 {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  
+  .footer-content p {
+    font-size: 10px;
+    margin-bottom: 0;
+    opacity: 0;
+    animation: fade-in 1s forwards;
+    color: #5c5757;
+    margin-left: 90px;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* Default styles for all screen sizes */
+
+/* ... Existing CSS code ... */
+
+/* Add media queries for responsiveness */
+
+/* For screen widths less than or equal to 600px */
+@media (max-width: 600px) {
+
+    /* Adjust the size of the logo */
+    .logo {
+        width: 42px;
+        height: 44px;
+        margin-top: 24px;
+    }
+  
+    /* Reduce padding and font size for navigation links */
+    #navbar li {
+        padding: 4px 17px;
+    }
+    #navbar li a {
+      font-size: 14px;
+    }
+   ul {
+        padding-right: 6rem;
+    }
+  
+    /* Adjust carousel height for smaller screens */
+    .carousel-inner {
+      height: 400px;
+    }
+  
+    /* Reduce font size and margin for carousel captions */
+    .carousel-caption {
+      font-size: 20px;
+      margin-bottom: 15rem;
+    }
+  
+    /* Adjust font size for "Follow us on social media" */
+    .follow {
+      font-size: 50px;
+    }
+  
+    /* Adjust size and spacing for icon elements */
+    .icon>i {
+      font-size: 60px;
+      padding-left: 30px;
+    }
+  
+    /* Reduce font size for "Welcome to MuscleUP" section */
+    .sidetext h3 {
+      font-size: 20px;
+    }
+  
+    /* Adjust image width for the poster section */
+    .p-img>img {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      margin-left: 0;
+    }
+  
+    /* Adjust margin for the "MuscleUp" text in the poster section */
+    .sidetext {
+      margin-left: 30px;
+    }
+  
+    /* Reduce font size for "Our Team" section */
+    .team .t-text {
+      font-size: 14px;
+    }
+  
+    /* Adjust image width for the "30 Days of Coaching Free" section */
+    .banner-form img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Adjust input elements for the "30 Days of Coaching Free" section */
+    .input1 input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    /* Adjust font size for footer links */
+    .b-footer a {
+      font-size: 14px;
+    }
+  
+    /* Adjust font size for the "Copy Right" section in the footer */
+    .footer-content h3 {
+      font-size: 14px;
+    }
+  
+    /* Adjust font size for "Developed by Dawood" in the footer */
+    .footer-content p {
+      font-size: 12px;
+    }
+    .p-img>img {
+        width: 457%;
+        height: 48rem;
+        padding: 20px;
+        margin-left: 0;
+    }
+    .sidetext h3 {
+        font-size: 20px;
+    }
+    .sidetext h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+        padding-right: 10px;
+        font-size: 28px;
+    }
+    p {
+        padding-right: 80px;
+        font-size: 11px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .sidetext {
+        line-height: 19px;
+        color: #ffffff;
+        margin-left: 225px;
+        margin-top: -21px;
+    }
+    .map-text h1 {
+        color: red;
+        font-size: 83px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .map-text h3 {
+        color: rgb(255, 255, 255);
+        font-size: 45px;
+        font-weight: 500;
+        letter-spacing: 26px;
+        transition: scale 400ms;
+    }
+    .map-text p span {
+        color: rgb(255, 0, 0);
+        font-size: 23px;
+        font-weight: 300;
+    }
+    .map-text p {
+        color: rgb(255, 255, 255);
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .map-text1 h1 {
+        color: red;
+        font-size: 83px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .map-text1 h3 {
+        color: rgb(255, 255, 255);
+        font-size: 45px;
+        font-weight: 500;
+        letter-spacing: 11px;
+        transition: scale 400ms;
+    }
+    .map-text1 p span {
+        color: rgb(255, 0, 0);
+        font-size: 23px;
+        font-weight: 300;
+    }
+    .map-text1 p {
+        color: rgb(255, 255, 255);
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .map-text2 h1 {
+        color: red;
+        font-size: 83px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .map-text2 h3 {
+        color: rgb(255, 255, 255);
+        font-size: 45px;
+        font-weight: 500;
+        letter-spacing: 20px;
+        transition: scale 400ms;
+    }
+    .map-text2 p span {
+        color: rgb(255, 0, 0);
+        font-size: 23px;
+        font-weight: 300;
+    }
+    .map-text2 p {
+        color: rgb(255, 255, 255);
+        font-size: 11px;
+        font-weight: 300;
+    }
+   
+    .h4 {
+        font-size: calc(12.275rem + -26.7vw);
+    }
+    .team .t-img img {
+        padding: 6px;
+        margin-top: 180px;
+        width: 101px;
+        height: 101px;
+        object-fit: cover;
+        border-radius: 50%;
+        transition: 400ms;
+    }
+  }
+  
+
+
+
+  
+
+
